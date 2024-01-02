@@ -26,5 +26,6 @@ int main() {
     }
     cout << "So lon nhat: " << Max << endl;
     cout << "So nho nhat: " << Min << endl;
+    system("pause");
     return 0;
 }

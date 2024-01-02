@@ -11,5 +11,6 @@ int main() {
     else {
         cout << nam << " la nam khong nhuan" << endl;
     }
+    system("pause");
     return 0;
 }

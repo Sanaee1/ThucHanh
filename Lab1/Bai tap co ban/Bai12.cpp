@@ -18,6 +18,8 @@ int main() {
     if (hang_donvi > temp) {
         temp = hang_donvi;
     }
-    cout << "a lon nhat la: " << temp << endl;
+    cout << "Chu so lon nhat la: " << temp << endl;
+
+    system("pause");
     return 0;
 }

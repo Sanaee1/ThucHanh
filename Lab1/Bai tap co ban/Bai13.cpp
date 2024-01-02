@@ -27,5 +27,7 @@ int main() {
     cout << "Tich 3 so nguyen: " << tich_n << endl;
     cout << "Tong 3 so thuc: " << tong_t << endl;
     cout << "Tich 3 so thuc: " << tich_t << endl;
+
+    system("pause");
     return 0;
 }

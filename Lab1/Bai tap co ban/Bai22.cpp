@@ -10,7 +10,7 @@ int main() {
         cin >> ten[i];
     }
 
-    sort(ten, ten + 3); 
+    sort(ten, ten + 3); //sort(con trỏ đầu, con trỏ cuối)
 
     cout << "Cac ten da dc sap xep: ";
     for (int i = 0; i < 3; i++) {
@@ -18,5 +18,6 @@ int main() {
     }
     cout << endl;
     
+    system("pause");
     return 0;
 }

@@ -8,7 +8,7 @@ int main() {
     cout << "Nhap n: ";
     cin >> n;
 
-    int m = n / 100; //lấy chữ số hàng trăm
+    temp[3] = n / 100; //lấy chữ số hàng trăm
 
     while (n > 0) {
         int donvi = n % 10;
@@ -17,7 +17,7 @@ int main() {
         i++;
     }
     
-    cout << temp[1] << temp[2] << m << endl;
+    cout << temp[1] << temp[2] << temp[3] << endl;
 
     system("pause");
     return 0;
