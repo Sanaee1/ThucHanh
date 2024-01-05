@@ -428,7 +428,7 @@ nhapn:
         goto nhapn;
     }
 
-    menu(m,n); //Bị lỗi câu 5,6
+    menu(m,n); //Bị lỗi câu 5 và 6
 
     system("pause");
     return 0;
