@@ -416,14 +416,14 @@ int main() {
 nhapm:
     cout << "Nhap so hang: ";
     cin >> m;
-    if (m < 0 || m >= 50) {
+    if (m < 0 || m > 2) {
         cout << "So hang khong hop le";
         goto nhapm;
     }
 nhapn:
     cout << "Nhap so cot: ";
     cin >> n;
-    if (n < 0 || n > 2) {
+    if (n < 0 || n >= 50) {
         cout << "So cot khong hop le";
         goto nhapn;
     }
